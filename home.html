@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Daily Todo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section id="user">
+            <form id="name-form">
+                <input type="text" name="username" id="username" placeholder="Enter your name...">
+                <br>
+                <button type="submit" name="name_submit" id="name_submit">Saving your name with your todo list</button>
+            </form>
+        </section>
+        <section id="greeting">
+            <h2 id="greet">Welcome!</h2>
+            <h2 id="todo-heading">My To-do List</h2>
+        </section>
+        <section id="task">
+            <form id="task-form">
+                <input type="text" name="add_task" id="add_task">
+                <button type='submit' name="add_task_button" id="add_task_button">Add task</button>
+            </form>
+        </section>
+        <section id="stats">
+            <p id="total_tasks">
+                Total Tasks:0
+            </p>
+            <p id="completed_tasks">
+                Completed Tasks:0
+            </p>
+        </section>
+        <section id="task-list-section">
+            <ul id="task-list">
+                <li>
+                    <span class="task-test">Study Javascript</span>
+                    <div class="task-actions">
+
+                        <button type="button" class="complete-btn"><br>Complete</button>
+                        <button type="button" class="edit-btn">Edit</button>
+                        <button type="button" class="delete-btn">Delete</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="controls-sec">
+            <button type="button" id="clear-completed">Clear completed</button>
+            <button type="button" id="del-button">Delete All</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
