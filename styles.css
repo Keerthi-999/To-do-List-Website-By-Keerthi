@@ -1,0 +1,112 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:red;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:20px;
+}
+main{
+    width:100%;
+    max-width:650px;
+    max-height:1200px;
+    background-color:purple;
+    padding:30px;
+    border-radius:15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+section{
+    margin-bottom:25px;
+}
+#name-form{
+    display:flex;
+    gap:10px;
+}
+#username{
+    padding: 10px;
+    font-size:0.8rem;
+    flex:1;
+}
+#name_submit{
+    color:orange;
+    background-color:brown;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#greeting{
+    color:orange;
+}
+
+#greet{
+    text-align:center;
+    margin-bottom:10px;
+}
+#task-form{
+    display:flex;
+    gap:10px;
+}
+#add_task{
+    flex:1;
+    padding:10px;
+    font-size:0.8rem;
+}
+#add_task_button{
+    padding:10px 15px;
+    background-color:brown;
+    color:orange;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#stats{
+    font-weight:bold;
+}
+
+#task-list{
+    list-style:none;
+}
+#task-list li{
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+    margin-bottom:10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.task-actions{
+    display:flex;
+    gap:8px;
+}
+
+.complete-btn,.edit-btn,.delete-btn{
+    color:orange;
+    background-color:brown;
+    padding:8px 12px;
+    border-radius:5px;
+    cursor:pointer;
+}
+#controls-sec{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+
+#clear-completed,#del-button{
+    padding:10px 15px;
+    color:orange;
+    background-color:brown;
+    border-radius:6px;
+    cursor:pointer;
+}
+button:hover{
+    opacity:0.89;
+}
+
+input[type="checkbox"]{
+    accent-color: #2563eb;
+    width:10px;
+    height:10px;
+    cursor:pointer;
+    align: left;
+}
